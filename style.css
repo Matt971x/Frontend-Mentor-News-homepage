@@ -44,10 +44,9 @@ h3 {
     position: absolute;
     top: 0;
     right:0;
-    width: 0%;
+    width: 70%;
     min-height: 100%;
     background: var(--Off-white);
-    transition: 0.5s ease;
     z-index: 1000;
 }
 .menu img {
