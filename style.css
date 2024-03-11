@@ -253,9 +253,6 @@ main{
     nav ul {
         display: none;
     }
-    .menu {
-        display: block;
-    }
 
     nav .menu-icon {
         display: flex;
