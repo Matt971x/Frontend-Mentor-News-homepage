@@ -4,11 +4,11 @@ const menu = document.querySelector(".menu");
 
 console.log(closeIcon);
 menuIcon.addEventListener("click", () => {
-  menu.style.right = 0;
+  menu.style.width = "70%";
   document.body.classList.toggle("dark-layout");
 });
 
 closeIcon.addEventListener("click", () => {
-  menu.style.right = "-100%";
+  menu.style.width = "0%";
   document.body.classList.remove("dark-layout");
 });

@@ -43,11 +43,10 @@ h3 {
     display: none;
     position: absolute;
     top: 0;
-    right:-100%;
+    right:0;
     width: 70%;
     min-height: 100%;
     background: var(--Off-white);
-    /* transform: translateX(100%); */ 
     transition: 0.5s ease;
     z-index: 1000;
 }
