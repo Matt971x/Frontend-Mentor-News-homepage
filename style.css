@@ -243,6 +243,10 @@ main{
 }
 
 @media screen and (max-width:900px) {
+
+    body {
+        overflow-x: hidden;
+    }
     nav{
         width: 90%;
         height: 28px;
